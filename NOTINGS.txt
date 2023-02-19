@@ -1,0 +1,19 @@
+FOR FUTURE DEVELOPMENT IN NAV BAR 
+
+<li><a href="{% url 'chatrooms' %}"> FIRST LINK
+
+<li><a href="{% url 'tracking' %}"> SECOND LINK
+
+<li><a href="{% url 'workload' %}"> THIRD LINK
+
+<li><a href= "{% url 'goals' %}"> FIFTH LINK
+
+<li><a href= "{% url 'reportings' %}"> SIXTH LINK
+
+<li><a href= "{% url 'Issues' %}"> SEVENTH LINK
+
+<li><a href= "{% url 'deadlines' %}"> 8TH LINK
+
+
+
+

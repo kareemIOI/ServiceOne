@@ -3,8 +3,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Responsive Side Navigation Bar</title>
-  <link rel="stylesheet" href="{% static 'base.css'%}">
+	<title>Task Managment</title>
+  <link rel="stylesheet" href="{% static 'css/base.css'%}">
 
 </head>
 <body>
@@ -38,7 +38,7 @@
 
   <div class="sidebar">
       <ul>
-        <li><a href="#">
+        <li><a href="/">
           <span class="icon"><i class="fas fa-book"></i></span>
           <span class="title">Home</span></a></li>
         <li><a href="#">
@@ -62,7 +62,7 @@
             <span class = "icon"><i class = "fas fa-leaf"></i></span>
             <span class = "title">Goals</span>
           </a></li>
-          <li><a href= "#">
+          <li><a href= "{% url 'reportings' %}">
             <span class = "icon"><i class = "fas fa-leaf"></i></span>
             <span class = "title">Reports</span>
           </a></li>
@@ -74,7 +74,6 @@
             <span class = "icon"><i class = "fas fa-leaf"></i></span>
             <span class = "title">Deadlines</span>
           </a></li>
-
     </ul>
   </div>
 </body>
